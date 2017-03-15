@@ -1,0 +1,549 @@
+@charset "utf-8";
+
+/* header */
+
+header {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid #7ec08a;
+}
+
+header>div {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header>div img:first-child {
+    width: 166px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+header>div img:last-child {
+    width: 204px;
+    height: 46px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+
+/* title */
+
+.title {
+    width: 100%;
+    height: 64px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title .title_content {
+    width: 1000px;
+    height: 64px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.title .title_content img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 20px;
+    left: 12px;
+}
+
+.title .title_content h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    left: 32px;
+}
+
+.title .title_content span {
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+}
+
+.title .title_content a {
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    color: #37a4e8;
+}
+
+
+/* login_window */
+
+.login_window {
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.login_window>div {
+    width: 996px;
+    height: 546px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #dcdcdc;
+    background: url(../images/back1.jpg) repeat-x;
+}
+
+.login_window>div .login_progress {
+    height: 100px;
+    font-size: 14px;
+    position: relative;
+}
+
+.login_window>div .login_progress span:first-child {
+    position: absolute;
+    top: 10px;
+    left: 32px;
+}
+
+.login_window>div .login_progress span:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    left: 426px;
+}
+
+.login_window>div .login_progress span:nth-child(3) {
+    position: absolute;
+    top: 10px;
+    left: 890px;
+}
+
+.login_window>div .login_progress img:first-of-type {
+    position: absolute;
+    top: 40px;
+    left: 52px;
+}
+
+.login_window>div .login_progress img:nth-of-type(2) {
+    position: absolute;
+    top: 40px;
+    left: 268px;
+}
+
+.login_window>div .login_progress img:nth-of-type(3) {
+    position: absolute;
+    top: 40px;
+    left: 510px;
+}
+
+.login_window>div .login_btn {
+    width: 550px;
+    height: 400px;
+    float: left;
+    margin-left: 40px;
+    line-height: 55px;
+    font-size: 16px;
+}
+
+.login_window>div .login_btn ul li:nth-child(-n+5) input {
+    font-size: 12px;
+    height: 28px;
+    width: 220px;
+    margin-left: 8px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: inset 1px 1px 2px #ccc;
+}
+
+.login_window>div .login_btn ul li:nth-child(-n+5) input:focus {
+    border: 1px solid #2da1e7;
+}
+
+.login_window>div .login_btn ul li {
+    position: relative;
+}
+
+.login_window>div .login_btn ul li a {
+    color: #34a7ea;
+}
+
+.login_window>div .login_btn ul li:first-child #phoneInfo1 {
+    position: absolute;
+    left: 290px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:first-child #phoneInfo2 {
+    position: absolute;
+    left: 316px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:first-child #phoneInfo3 {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #ffbb27;
+    position: absolute;
+    top: 24px;
+    left: 336px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background: url(../images/icon21.png) no-repeat 5px;
+    background-color: #fff6cf;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(2) #pwdInfo1 {
+    position: absolute;
+    left: 290px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(2) #pwdInfo2 {
+    position: absolute;
+    left: 316px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(2) #pwdInfo3 {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #ffbb27;
+    position: absolute;
+    top: 24px;
+    left: 336px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background: url(../images/icon21.png) no-repeat 5px;
+    background-color: #fff6cf;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(3) #repwdInfo1 {
+    position: absolute;
+    left: 290px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(3) #repwdInfo2 {
+    position: absolute;
+    left: 316px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(3) #repwdInfo3 {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #ffbb27;
+    position: absolute;
+    top: 24px;
+    left: 336px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background: url(../images/icon21.png) no-repeat 5px;
+    background-color: #fff6cf;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(4) #emailInfo1 {
+    position: absolute;
+    left: 290px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(4) #emailInfo2 {
+    position: absolute;
+    left: 316px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(4) #emailInfo3 {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #ffbb27;
+    position: absolute;
+    top: 24px;
+    left: 336px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background: url(../images/icon21.png) no-repeat 5px;
+    background-color: #fff6cf;
+    display: none;
+}
+
+.login_window>div .login_btn ul li:nth-child(5) input {
+    width: 130px;
+}
+
+.login_window>div .login_btn ul li:nth-child(5) .codeImg {
+    position: absolute;
+    top: 7px;
+    left: 255px;
+}
+
+.login_window>div .login_btn ul li:nth-child(5) .codeImg img {
+    width: 70px;
+    height: 32px;
+}
+
+.login_window>div .login_btn ul li:nth-child(5) .changeCode {
+    font-size: 14px;
+    position: absolute;
+    top: 7px;
+    left: 352px;
+}
+
+.login_window>div .login_btn ul li:nth-child(6) {
+    font-size: 14px;
+    margin-left: 88px;
+}
+
+.login_window>div .login_btn ul li:nth-child(6) input {
+    margin-right: 4px;
+}
+
+.login_window>div .login_btn ul li:nth-child(7) .submit {
+    font-size: 16px;
+    width: 130px;
+    height: 30px;
+    background: #ff9000;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 88px;
+}
+
+.login_window>div .login_img {
+    width: 198px;
+    height: 400px;
+    border: 1px solid #e8e8e8;
+    float: right;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.login_window>div .login_img img:first-child {
+    margin: 21px 23px;
+}
+
+.login_window>div .login_img img:nth-child(2) {
+    margin: 20px 53px;
+}
+
+
+/* aboutUs */
+
+.aboutUs {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.aboutUs>div {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.aboutUs>div ul {
+    width: 600px;
+    margin: 70px auto 0;
+    display: flex;
+}
+
+.aboutUs>div ul li {
+    width: 120px;
+    text-align: center;
+    border-right: 1px solid #e8e8e8;
+}
+
+.aboutUs>div ul li:last-child {
+    border-right: none;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 123px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-top: 1px solid #e8e8e8;
+}
+
+footer .foot {
+    width: 1000px;
+    height: 123px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer .foot p {
+    margin: 20px auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* 灰色背景 */
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.process {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    width: 250px;
+    height: 150px;
+    line-height: 150px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: none;
+}
+
+
+/* 登录窗口 */
+
+.login {
+    width: 362px;
+    height: 382px;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    z-index: 1000;
+    border: 1px solid #49a75b;
+    border-radius: 2px;
+    background: #ffffff;
+    z-index: 1000;
+    display: none;
+}
+
+.login .login_head {
+    width: 362px;
+    height: 52px;
+    border-bottom: 1px solid #49a75b;
+}
+
+.login .login_head div:first-child {
+    float: left;
+    width: 181px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 52px;
+    border-bottom: 3px solid #48a75b;
+}
+
+.login .login_head div:last-child {
+    float: right;
+    width: 181px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 52px;
+}
+
+.login .pwdLogin {
+    width: 382px;
+}
+
+.login .pwdLogin input:nth-of-type(-n+2) {
+    width: 300px;
+    height: 40px;
+    border: 2px solid #eee;
+    margin: 20px 25px 0;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.login .pwdLogin input:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+.login .pwdLogin input:nth-of-type(3) {
+    margin-left: 20px;
+}
+
+.login .pwdLogin a {
+    margin-left: 170px;
+    color: #2da1e8;
+}
+
+.login .pwdLogin input:nth-of-type(4) {
+    margin-top: 20px;
+    width: 300px;
+    height: 34px;
+    border-radius: 3px;
+    background: #49a75b;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.login .teleLogin {
+    display: none;
+}
+
+.login p {
+    width: 290px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+    background: #f7fbf5;
+    border-radius: 3px;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.login p a {
+    color: #2da1e8;
+}
